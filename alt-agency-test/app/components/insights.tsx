@@ -2,6 +2,7 @@ import Image from "next/image";
 import MicrosoftLoop from "../images/promo-microsoft-loop.png";
 import XeroxPromo from "../images/promo-xerox-technology.png";
 import Link from "next/link";
+import Geometric from "../images/geometric-black.svg";
 
 export default function Insights() {
 	return (
@@ -78,6 +79,13 @@ export default function Insights() {
 					<p>View all FAQs</p>
 				</div>
 			</div>
+			<Image
+				src={Geometric}
+				width={1348}
+				height={1348}
+				alt="Geometric"
+				className="h-[1348px] absolute right-[400px] top-[2806px]"
+			/>
 		</div>
 	);
 }
