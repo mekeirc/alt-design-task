@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Logo from "../images/dns-logo-white.png";
+import Geometric from "../images/geometric-footer.svg";
 
 export default function Footer() {
 	return (
-		<footer className="w-full pt-20 h-[910px] bg-alt-coral">
+		<footer className="w-full pt-30 h-[910px] bg-alt-coral relative overflow-hidden">
 			<div className="container mx-auto flex flex-col text-white">
 				<div className="flex justify-between">
 					<div className="text-[60px] font-bold leading-[70px]">
@@ -39,7 +40,7 @@ export default function Footer() {
 						</button>
 					</div>
 				</div>
-				<div className="flex mt-40 font-plexmono text-[12px] justify-between">
+				<div className="flex mt-30 font-plexmono text-[12px] justify-between">
 					<Image
 						src={Logo}
 						width={94}
@@ -78,11 +79,18 @@ export default function Footer() {
 						<p>Document Management</p>
 					</div>
 				</div>
-				<div className="w-full flex justify-between border-t-1 border-stone-400 py-6 mt-8 font-plexmono text-[11px]">
+				<div className="w-full flex justify-between border-t-1  border-white/15 py-6 mt-8 font-plexmono text-[11px]">
 					<p>Design &amp; built by Alt</p>
 					<p>&copy; Document Network Services Ltd 2024</p>
 				</div>
 			</div>
+			<Image
+				src={Geometric}
+				width={1348}
+				height={1348}
+				alt="Geometric"
+				className="h-[1348px] absolute left-[160px] bottom-[-200px] opacity-75"
+			/>
 		</footer>
 	);
 }

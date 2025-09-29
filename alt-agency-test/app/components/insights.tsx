@@ -37,7 +37,46 @@ export default function Insights() {
 				</div>
 			</div>
 			<div className="flex flex-col w-[50%]">
-				<h3 className="text-[40px] font-bold">FAQ`s</h3>
+				<h3 className="text-[40px] font-bold mb-6">FAQ`s</h3>
+				<div className="flex justify-between text-[23px] leading-[45px] border-t-2 border-white/20 py-3">
+					<p>Do you offer 24h support?</p>
+					<p>&#43;</p>
+				</div>
+				<div className="flex justify-between text-[23px] leading-[45px] border-t-2 border-white/20 py-3">
+					<p>Do you sell Xerox printers?</p>
+					<p>&#43;</p>
+				</div>
+				<div className="flex justify-between text-[23px] leading-[45px] border-t-2 border-white/20 py-3">
+					<p>Can I upgrade my support package?</p>
+					<p>&#43;</p>
+				</div>
+				<div className="flex justify-between text-[23px] leading-[45px] border-t-2 border-white/20 py-3">
+					<p>Do you offer 24h support?</p>
+					<p>&#43;</p>
+				</div>
+				<div className="flex justify-between text-[23px] leading-[45px] border-t-2 border-white/20 py-3">
+					<p>Do you sell Xerox printers?</p>
+					<p>&#43;</p>
+				</div>
+				<div className="flex justify-between text-[23px] leading-[45px] border-t-2 border-white/20 py-3">
+					<p>Do you sell Xerox printers?</p>
+					<p>&#43;</p>
+				</div>
+				<div className="flex justify-between text-[23px] leading-[45px] border-t-2 border-white/20 py-3">
+					<p>Do you sell Xerox printers?</p>
+					<p>&#43;</p>
+				</div>
+				<div className="flex justify-between text-[23px] leading-[45px] border-t-2 border-white/20 py-3">
+					<p>Do you sell Xerox printers?</p>
+					<p>&#43;</p>
+				</div>
+				<div className="flex justify-between text-[23px] leading-[45px] border-t-2 border-white/20 py-3">
+					<p>Do you sell Xerox printers?</p>
+					<p>&#43;</p>
+				</div>
+				<div className="flex justify-between text-[12px] border-t-2 border-white/20 py-6 font-plexmono underline">
+					<p>View all FAQs</p>
+				</div>
 			</div>
 		</div>
 	);
