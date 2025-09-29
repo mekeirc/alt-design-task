@@ -1,6 +1,7 @@
 import Hero from "./components/hero";
 import LogoArea from "./components/logoarea";
 import Process from "./components/process";
+import CaseStudies from "./components/casestudies";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
           <Hero />
           <LogoArea />
           <Process />
+          <CaseStudies />
       </main>
     </div>
   );

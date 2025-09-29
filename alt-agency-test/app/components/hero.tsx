@@ -11,9 +11,9 @@ import HeroCommunications from "../images/hero-communications.svg";
 export default function Hero() {
 	return (
 		<>
-			<div className="flex bg-alt-navy p-6 w-full nav h-[80vh] overflow-hidden pb-2">
+			<div className="flex bg-alt-navy p-6 w-full nav h-[60vh] overflow-hidden pb-2">
 				<div className="flex container mx-auto justify-between font-medium items-start">
-					<div className="flex flex-col h-[80vh]">
+					<div className="flex flex-col h-[60vh]">
 						<div className="flex gap-16">
 							<Link href="/" className="flex" title="Home">
 								<Image src={Logo} alt="Logo" width={133} height={82} className="logo" />

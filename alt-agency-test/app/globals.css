@@ -49,3 +49,7 @@ body {
   width: 133px;
   height: 82px;
 }
+
+.black-white {
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 1) 50%);
+}
