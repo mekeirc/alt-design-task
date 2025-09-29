@@ -5,6 +5,7 @@ import CaseStudies from "./components/casestudies";
 import ProblemSolvers from "./components/problemsolvers";
 import Insights from "./components/insights";
 import TeamOfExperts from "./components/teamofexperts";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <ProblemSolvers />
           <Insights />
           <TeamOfExperts />
+          <Footer />
       </main>
     </div>
   );
