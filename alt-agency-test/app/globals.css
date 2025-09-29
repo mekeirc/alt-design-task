@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --custom-navy: #31297D;
+  --custom-pink: #F4207B;
+  --custom-magenta: #C92C93;
+  --custom-coral: #FF3A7A;
+}
+
+@layer utilities {
+  .font-gilroy {
+    font-family: var(--font-gilroy), sans-serif;
+  }
+  .font-plexmono {
+    font-family: var(--font-plexmono), monospace;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-alt-navy: var(--custom-navy);
+  --color-alt-pink: var(--custom-pink);
+  --color-alt-magenta: var(--custom-magenta);
+  --color-alt-coral: var(--custom-coral);
+  --font-gilroy: var(--font-gilroy), sans-serif;
+  --font-plexmono: var(--font-plexmono), monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 133px;
+  height: 82px;
+}
